@@ -5,10 +5,10 @@ Implement a Java web application with RESTful services that will allow the user 
 CRUD operations on the books in a repository.
 
 ###Requirements
-* When run locally, the application's services are available at http://localhost:8080/api/v1/books.
+* When run locally, the application's services are available at http://localhost:8080/hello/John and  http://localhost:8080/api/v1/books
 * The user can run the test scripts from folder src/test/scripts and get expected results.
 * The executed actions will update the database.
-* Add security with HTTP basic authentication 
+* Add security with HTTP basic authentication only to the books api
 * Add a few unit tests (maybe utilizing mocking?)
 
 ###Details
